@@ -1,0 +1,25 @@
+{
+  "name": "simple-cors-proxy",
+  "version": "1.0.0",
+  "description": "A simple Cors proxy server made with Node.js",
+  "main": "server.js",
+  "scripts": {
+    "dev": "npx nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cors",
+    "cache",
+    "proxy",
+    "nodejs",
+    "express"
+  ],
+  "author": "chrismuiruriz",
+  "license": "ISC",
+  "dependencies": {
+    "apicache": "^1.5.3",
+    "cors-anywhere": "^0.4.3",
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.2"
+  }
+}
